@@ -2,7 +2,9 @@ package hello.core.discount;
 
 import hello.core.member.Grade;
 import hello.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 //조건에 맞게 내가 직접 작성해본 코드
 public class RateDiscountPolicy implements DiscountPolicy{
 
